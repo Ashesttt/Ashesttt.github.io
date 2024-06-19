@@ -1,0 +1,49 @@
+site_name: Jerryestt's Blog
+# site_url: https://Jerryestt.github.io
+site_author: Jerryestt
+repo_name: 'Jerryestt/Jerryestt.github.io'
+copyright: "Copyright &copy; 2024 - 2024 JiHao Huang"
+theme:
+  name: 'material'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  features:
+    - content.code.select
+    - content.code.copy
+  language: 'zh'
+extra:
+  social:
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/Jerryestt'
+    - icon: 'fontawesome/brands/bilibili'
+      link: 'https://space.bilibili.com/12873865'
+markdown_extensions:
+  - github-callouts # github callouts 语法支持
+  - admonition # 注解块支持
+  - pymdownx.arithmatex # 数学公式的TeX语法支持
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji: # 表情支持
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist: # 任务清单支持
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - meta # 元数据支持
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+plugins:
+  - search
