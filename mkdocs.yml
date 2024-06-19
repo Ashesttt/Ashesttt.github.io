@@ -16,8 +16,6 @@ extra:
   social:
     - icon: 'fontawesome/brands/github'
       link: 'https://github.com/Jerryestt'
-    - icon: 'fontawesome/brands/bilibili'
-      link: 'https://space.bilibili.com/12873865'
 markdown_extensions:
   - github-callouts # github callouts 语法支持
   - admonition # 注解块支持
