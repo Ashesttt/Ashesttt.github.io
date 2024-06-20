@@ -1,7 +1,7 @@
-site_name: Jerryestt's Blog
-# site_url: https://Jerryestt.github.io
-site_author: Jerryestt
-repo_name: 'Jerryestt/Jerryestt.github.io'
+site_name: Ashesttt's Blog
+# site_url: https://Ashesttt.github.io
+site_author: Ashesttt
+repo_name: 'Ashesttt/Ashesttt.github.io'
 copyright: "Copyright &copy; 2024 - 2024 JiHao Huang"
 theme:
   name: 'material'
@@ -15,7 +15,7 @@ theme:
 extra:
   social:
     - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/Jerryestt'
+      link: 'https://github.com/Ashesttt'
 markdown_extensions:
   - github-callouts # github callouts 语法支持
   - admonition # 注解块支持
