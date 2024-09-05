@@ -6,15 +6,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="ipad玩Linux没有esc怎么办">
       
-      
-        <meta name="author" content="hjh">
-      
+        <meta name="author" content="Ashesttt">
       
       
       
-        <link rel="next" href="../Specific-operations-for-uploading-Ubuntu-projects-to-GitHub-through-git/">
+        <link rel="prev" href="../understanding-of-node-and-nginx-deployment-websites/">
+      
+      
+        <link rel="next" href="../%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%8D%E5%90%8C%E6%96%87%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>ipad玩Linux没有esc怎么办 - Ashesttt's Blog</title>
+        <title>在GitHub暴露了敏感信息的文件怎么办？ - Ashesttt's Blog</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ipadlinuxesc" class="md-skip">
+        <a href="#github" class="md-skip">
           跳转至
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ipad玩Linux没有esc怎么办
+              在GitHub暴露了敏感信息的文件怎么办？
             
           </span>
         </div>
@@ -198,19 +198,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Linux-without-esc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -219,7 +210,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -368,10 +358,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../%E5%9C%A8GitHub%E6%9A%B4%E9%9C%B2%E4%BA%86%E6%95%8F%E6%84%9F%E4%BF%A1%E6%81%AF%E7%9A%84%E6%96%87%E4%BB%B6%E6%80%8E%E4%B9%88%E5%8A%9E/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    在GitHub暴露了敏感信息的文件怎么办？
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -380,6 +390,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.从 Git 仓库中删除敏感文件
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-gitignore" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.在 .gitignore 文件中忽略文件
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.提交更改并上传
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -424,6 +481,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.从 Git 仓库中删除敏感文件
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-gitignore" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.在 .gitignore 文件中忽略文件
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.提交更改并上传
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -437,19 +529,25 @@
                   
 
 
-<h1 id="ipadlinuxesc">ipad玩Linux没有esc怎么办</h1>
-<h1 id="control">用  control  +  【</h1>
-<p><img alt="v2-65edf66d4f7b2a146a899a0782963d35_r.jpg" src="https://s2.loli.net/2023/04/03/6VTjA8rqiXv5tz3.jpg" /></p>
-<p>在Linux中，如果您没有ESC键，可以使用<code>Control + [</code>来代替。这个组合键实际上等同于按下ESC键。</p>
+<h1 id="github">在GitHub暴露了敏感信息的文件怎么办？</h1>
+<p>要在 GitHub 上删除已经暴露了敏感信息的文件怎么办？，并确保将来不再推送该文件，可以按照以下步骤</p>
+<blockquote>
+<p>以application.yaml为例子</p>
+</blockquote>
+<h2 id="1-git">1.从 Git 仓库中删除敏感文件</h2>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>rm<span class="w"> </span>--cached<span class="w"> </span>D:<span class="se">\E</span>mergency_Material_Manage<span class="se">\S</span>pringBoot<span class="se">\s</span>rc<span class="se">\m</span>ain<span class="se">\r</span>esources<span class="se">\a</span>pplication.yaml
+</span></code></pre></div>
+<h2 id="2-gitignore">2.在 .gitignore 文件中忽略文件</h2>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>application.yaml
+</span></code></pre></div>
+<h2 id="3">3.提交更改并上传</h2>
+<p>就成功了</p>
 
 
 
 
 
 
-
-  
-  
 
 
 
