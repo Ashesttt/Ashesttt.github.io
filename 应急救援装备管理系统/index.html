@@ -20,7 +20,7 @@
     
     
       
-        <title>应急救援装备管理系统教程 - Ashesttt's Blog</title>
+        <title>应急救援装备管理系统 - Ashesttt's Blog</title>
       
     
     
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              应急救援装备管理系统教程
+              应急救援装备管理系统
             
           </span>
         </div>
@@ -279,6 +279,26 @@
   
   
     <li class="md-nav__item">
+      <a href="../Untitled/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Untitled
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../Use-Typora-and-PicGo-to-implement-the-graph-bed-function/" class="md-nav__link">
         
   
@@ -319,11 +339,51 @@
   
   
     <li class="md-nav__item">
+      <a href="../docker_%E5%BA%94%E6%80%A5%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker 应急管理系统
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../images/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Images
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jsdelivr%20CDN%20%E4%BD%BF%E7%94%A8%E5%92%8C%E7%BC%93%E5%AD%98%E5%88%B7%E6%96%B0%20/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    jsdelivr CDN 使用和缓存刷新
   </span>
   
 
@@ -412,7 +472,7 @@
           
   
   <span class="md-ellipsis">
-    应急救援装备管理系统教程
+    应急救援装备管理系统
   </span>
   
 
@@ -423,7 +483,7 @@
         
   
   <span class="md-ellipsis">
-    应急救援装备管理系统教程
+    应急救援装备管理系统
   </span>
   
 
@@ -477,6 +537,21 @@
       快速开始
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="快速开始">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker-compose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Docker Compose 部署
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -626,6 +701,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="快速开始">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#docker-compose" class="md-nav__link">
+    <span class="md-ellipsis">
+      Docker Compose 部署
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -721,13 +811,26 @@
                   
 
 
-<h1 id="_1">应急救援装备管理系统教程</h1>
-<p>本教程将指导您如何设置和运行应急救援装备管理系统。</p>
+<h1 id="_1">应急救援装备管理系统</h1>
+<div align="center">
+
+[![GitHub Release](https://img.shields.io/github/v/release/Ashesttt/Emergency_Supplies_Management_System)](https://img.shields.io/github/v/release/Ashesttt/Emergency_Supplies_Management_System)
+[![GitHub License](https://img.shields.io/github/license/Ashesttt/Emergency_Supplies_Management_System)](https://img.shields.io/github/license/Ashesttt/Emergency_Supplies_Management_System)
+![Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+
+</div>
+
 <h2 id="_2">介绍</h2>
 <p>一个基于SpringBoot，Vue，Element的应急救援装备管理系统</p>
 <p><img alt="show_emergency_system" src="https://github.com/Ashesttt/Ashesttt.github.io/blob/main/images/show_emergency_system.png?raw=true" /></p>
 <h2 id="_3">在线体验</h2>
-<p><a href="http://47.92.99.199:8080/login">应急救援装备管理系统</a></p>
+<p><a href="http://47.92.99.199">应急救援装备管理系统</a>
+</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>账号：admin
+密码：admin</p>
+</div>
 <h2 id="_4">系统需求</h2>
 <ul>
 <li>MySQL == 8.0.36</li>
@@ -735,47 +838,38 @@
 <li>Node ==16.19.0</li>
 </ul>
 <h2 id="_5">快速开始</h2>
-<blockquote>
-<p>目前仅支持mysql</p>
-</blockquote>
-<p>1.首先，创建一个新的数据库 <code>emergency_material_manage</code> 并使用它。</p>
-<div class="language-sql highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">create</span><span class="w"> </span><span class="k">database</span><span class="w"> </span><span class="n">emergency_material_manage</span><span class="err">；</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">use</span><span class="w"> </span><span class="n">emergency_material_manage</span><span class="err">；</span>
+<p><strong>Emergency_Supplies_Management_System</strong>  支持  <a href="#docker-compose-部署">Docker Compose 部署</a>、<a href="./docs/development.md#本地部署">本地部署</a></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>推荐使用 Docker-compose 部署。</p>
+</div>
+<h3 id="docker-compose">Docker Compose 部署</h3>
+<ol>
+<li>创建文件夹并下载 docker-compose.yml和emergency_material_manage.sql</li>
+</ol>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>mkdir<span class="w"> </span>Emergency_Supplies_Management_System<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>Emergency_Supplies_Management_System<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>curl<span class="w"> </span>-O<span class="w"> </span>https://cdn.jsdelivr.net/gh/Ashesttt/Emergency_Supplies_Management_System@Emergency_Material_Manage_System/docker-compose.yml<span class="w"> </span>-O<span class="w"> </span>https://cdn.jsdelivr.net/gh/Ashesttt/Emergency_Supplies_Management_System@Emergency_Material_Manage_System/emergency_material_manage.sql
 </span></code></pre></div>
-<p>2.将<code>emergency_material_manage.sql</code>文件导入到数据库中。请确保您已将该文件放置在正确的路径中。</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">source</span><span class="w"> </span>/Emergency_Supplies_Management_System/emergency_material_manage.sql<span class="p">;</span>
+<ol>
+<li>可编辑端口</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>默认后端端口为：9091</p>
+<p>前端端口为：80</p>
+</div>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>vim<span class="w"> </span>docker-compose.yml
 </span></code></pre></div>
-<p>3.进入项目，复制后端示例配置文件，并编辑配置文件，填写数据库密码。</p>
-<blockquote>
-<p>修改以下内容：
-spring.datasource.password（数据库的密码）</p>
-<p>api.base-url(您的后端地址，即服务器公网ip+后端端口，默认是9091)</p>
-</blockquote>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">cd</span><span class="w"> </span>Emergency_Supplies_Management_System/src/main/resources
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>cp<span class="w"> </span>application.yaml.example<span class="w"> </span>application.yaml
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>vim<span class="w"> </span>application.yaml
+<ol>
+<li>运行 Docker Compose</li>
+</ol>
+<p><div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>docker-compose<span class="w"> </span>up<span class="w"> </span>--build
 </span></code></pre></div>
-<p>4.编辑环境文件，换成您的服务器公网ip+后端端口，默认是9091</p>
-<blockquote>
-<p>VUE_APP_API_BASE_URL</p>
-<p>其中上边的api.base-url和这个一样</p>
-</blockquote>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>vim<span class="w"> </span>Emergency_Supplies_Management_System/vue/.env
-</span></code></pre></div>
-<p>5.使用 Maven 构建后端 Spring Boot 项目。</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>mvn<span class="w"> </span>-X<span class="w"> </span>clean<span class="w"> </span>install
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>mvn<span class="w"> </span>package
-</span></code></pre></div>
-<p>6.使用以下命令启动后端项目。</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nb">cd</span><span class="w"> </span>target
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>java<span class="w"> </span>-jar<span class="w"> </span>SpringBoot-0.0.1-SNAPSHOT.jar
-</span></code></pre></div>
-<p>7.进入前端项目的目录，并安装所需的依赖项。</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nb">cd</span><span class="w"> </span>/Emergency_Supplies_Management_System/vue
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>npm<span class="w"> </span>install
-</span></code></pre></div>
-<p>8.启动前端项目</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>npm<span class="w"> </span>run<span class="w"> </span>serve
+</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>若多次尝试启动，没有成功达到您的目的，可以尝试停止启动容器</p>
+</div>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>docker-compose<span class="w"> </span>down<span class="w"> </span>-v
 </span></code></pre></div>
 <h2 id="_6">支持的功能</h2>
 <h3 id="1">1.系统管理</h3>

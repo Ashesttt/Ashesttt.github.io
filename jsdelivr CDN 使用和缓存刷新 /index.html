@@ -6,15 +6,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="ipad玩Linux没有esc怎么办">
       
-      
-        <meta name="author" content="hjh">
-      
+        <meta name="author" content="Ashesttt">
       
       
       
-        <link rel="next" href="../Specific-operations-for-uploading-Ubuntu-projects-to-GitHub-through-git/">
+        <link rel="prev" href="../images/">
+      
+      
+        <link rel="next" href="../understanding-of-node-and-nginx-deployment-websites/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>ipad玩Linux没有esc怎么办 - Ashesttt's Blog</title>
+        <title>jsdelivr CDN 使用和缓存刷新 - Ashesttt's Blog</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ipadlinuxesc" class="md-skip">
+        <a href="#jsdelivr-cdn" class="md-skip">
           跳转至
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ipad玩Linux没有esc怎么办
+              jsdelivr CDN 使用和缓存刷新
             
           </span>
         </div>
@@ -198,19 +198,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Linux-without-esc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -219,7 +210,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -388,10 +378,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../jsdelivr%20CDN%20%E4%BD%BF%E7%94%A8%E5%92%8C%E7%BC%93%E5%AD%98%E5%88%B7%E6%96%B0%20/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    jsdelivr CDN 使用和缓存刷新
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -400,6 +410,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-jsdelivrcdn" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. jsdelivr的cdn使用规则
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-jsdelivr" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. jsdelivr 缓存刷新方法
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -504,6 +552,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-jsdelivrcdn" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. jsdelivr的cdn使用规则
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-jsdelivr" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. jsdelivr 缓存刷新方法
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -517,19 +591,34 @@
                   
 
 
-<h1 id="ipadlinuxesc">ipad玩Linux没有esc怎么办</h1>
-<h1 id="control">用  control  +  【</h1>
-<p><img alt="v2-65edf66d4f7b2a146a899a0782963d35_r.jpg" src="https://s2.loli.net/2023/04/03/6VTjA8rqiXv5tz3.jpg" /></p>
-<p>在Linux中，如果您没有ESC键，可以使用<code>Control + [</code>来代替。这个组合键实际上等同于按下ESC键。</p>
+<h1 id="jsdelivr-cdn">jsdelivr CDN 使用和缓存刷新</h1>
+<p>jsDelivr 提供的全球 CDN 加速，CDN的分流作用不仅减少了用户的访问延时，也减少的源站的负载。因为 jsDelivr 是开源的免费 cdn，所以我个人一直在使用他</p>
+<h2 id="1-jsdelivrcdn">1. jsdelivr的cdn使用规则</h2>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>https://cdn.jsdelivr.net/gh/user/repo@version/file
+</span></code></pre></div>
+<p>例如：</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>https://cdn.jsdelivr.net/gh/Ashesttt/Emergency_Supplies_Management_System@Emergency_Material_Manage_System/docker-compose.yml
+</span></code></pre></div>
+<h2 id="2-jsdelivr">2. jsdelivr 缓存刷新方法</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>有的时候在github上更新了某个文件，但是wget下来还是旧的，没更新，那么就需要缓存刷新</p>
+</div>
+<p>对于 jsDelivr，缓存刷新的方式也很简单，只需将想刷新的链接的开头的cdn 更改为 purge</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>https://cdn.jsdelivr.net/
+</span></code></pre></div>
+<p>切换为</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>https://purge.jsdelivr.net/
+</span></code></pre></div>
+<p>例子：</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>https://purge.jsdelivr.net/gh/Ashesttt/Emergency_Supplies_Management_System@Emergency_Material_Manage_System/docker-compose.yml
+</span></code></pre></div>
 
 
 
 
 
 
-
-  
-  
 
 
 
