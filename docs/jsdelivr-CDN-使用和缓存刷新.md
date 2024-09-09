@@ -1,3 +1,16 @@
+---
+date:
+  created: 2023-12-31
+  updated: 2024-01-02
+authors:
+  - material
+categories:
+  - Holidays
+tags:
+  - new year
+  - hogmanay
+  - festive season
+---
 # jsdelivr CDN 使用和缓存刷新 
 
 jsDelivr 提供的全球 CDN 加速，CDN的分流作用不仅减少了用户的访问延时，也减少的源站的负载。因为 jsDelivr 是开源的免费 cdn，所以我个人一直在使用他

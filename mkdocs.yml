@@ -1,17 +1,27 @@
 site_name: Ashesttt's Blog
-# site_url: https://Ashesttt.github.io
+#site_url: https://Ashesttt.github.io
 site_author: Ashesttt
 repo_name: 'Ashesttt/Ashesttt.github.io'
+repo_url: https://github.com/Ashesttt/Ashesttt.github.io
 copyright: "Copyright &copy; 2024 - 2024 JiHao Huang"
+
+
+
 theme:
   name: 'material'
+  language: 'zh'
+  logo: shuzai.png
   palette:
-    primary: 'indigo'
-    accent: 'indigo'
+    primary: light blue
+    accent: pink
   features:
     - content.code.select
     - content.code.copy
-  language: 'zh'
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer  
+  
 extra:
   social:
     - icon: 'fontawesome/brands/github'
