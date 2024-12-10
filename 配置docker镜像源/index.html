@@ -11,10 +11,10 @@
       
       
       
-        <link rel="prev" href="../images/">
+        <link rel="prev" href="../%E9%85%8D%E7%BD%AEclash-for-linux-backup/">
       
       
-        <link rel="next" href="../understanding-of-node-and-nginx-deployment-websites/">
+        <link rel="next" href="../%E9%BB%91%E8%B1%B9_x2-tf%E5%8D%A1%E9%87%8D%E6%96%B0%E6%8C%82%E8%BD%BD/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>jsdelivr CDN 使用和缓存刷新 - Ashesttt's Blog</title>
+        <title>配置Docker镜像源 - Ashesttt's Blog</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#jsdelivr-cdn" class="md-skip">
+        <a href="#docker" class="md-skip">
           跳转至
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              jsdelivr CDN 使用和缓存刷新
+              配置Docker镜像源
             
           </span>
         </div>
@@ -427,30 +427,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    jsdelivr CDN 使用和缓存刷新
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../jsdelivr-CDN-%E4%BD%BF%E7%94%A8%E5%92%8C%E7%BC%93%E5%AD%98%E5%88%B7%E6%96%B0/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -459,44 +439,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-jsdelivrcdn" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. jsdelivr的cdn使用规则
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-jsdelivr" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. jsdelivr 缓存刷新方法
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -605,10 +547,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../%E9%85%8D%E7%BD%AEdocker%E9%95%9C%E5%83%8F%E6%BA%90/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    配置Docker镜像源
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -617,6 +579,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 配置单次地址
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 一键设置镜像加速
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 列举一些docker镜像源
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -688,18 +697,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-jsdelivrcdn" class="md-nav__link">
+  <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
-      1. jsdelivr的cdn使用规则
+      1. 配置单次地址
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-jsdelivr" class="md-nav__link">
+  <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
-      2. jsdelivr 缓存刷新方法
+      2. 一键设置镜像加速
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 列举一些docker镜像源
     </span>
   </a>
   
@@ -723,37 +741,179 @@
   
 
 
-<h1 id="jsdelivr-cdn">jsdelivr CDN 使用和缓存刷新</h1>
-<p>jsDelivr 提供的全球 CDN 加速，CDN的分流作用不仅减少了用户的访问延时，也减少的源站的负载。因为 jsDelivr 是开源的免费 cdn，所以我个人一直在使用他</p>
-<h2 id="1-jsdelivrcdn">1. jsdelivr的cdn使用规则</h2>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>https://cdn.jsdelivr.net/gh/user/repo@version/file
+<h1 id="docker">配置Docker镜像源</h1>
+<h2 id="1">1. 配置单次地址</h2>
+<ol>
+<li><strong>假如拉取原始镜像命令如下:</strong></li>
+</ol>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>jerryestt/backend-image:latest
 </span></code></pre></div>
-<p>例如：</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>https://cdn.jsdelivr.net/gh/Ashesttt/Emergency_Supplies_Management_System@Emergency_Material_Manage_System/docker-compose.yml
+<ol>
+<li><strong>仅需在原命令前缀加入加速镜像地址 例如：</strong></li>
+</ol>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>dockerpull.com/jerryestt/backend-image:latest
 </span></code></pre></div>
-<h2 id="2-jsdelivr">2. jsdelivr 缓存刷新方法</h2>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>有的时候在github上更新了某个文件，但是wget下来还是旧的，没更新，那么就需要缓存刷新</p>
-</div>
-<p>对于 jsDelivr，缓存刷新的方式也很简单，只需将想刷新的链接的开头的cdn 更改为 purge</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>https://cdn.jsdelivr.net/
+<h2 id="2">2. 一键设置镜像加速</h2>
+<ol>
+<li>修改文件 /etc/docker/daemon.json（如果不存在则创建）</li>
+</ol>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>vim<span class="w"> </span>/etc/docker/daemon.json
 </span></code></pre></div>
-<p>切换为</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>https://purge.jsdelivr.net/
+<ol>
+<li>修改JSON文件 更改为以下内容 然后保存(注意替换地址)</li>
+</ol>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>{
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  &quot;registry-mirrors&quot;: [
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>          &quot;https://n1j279su.mirror.aliyuncs.com&quot;,
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>          &quot;https://docker.1panel.live/&quot;,
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>          &quot;https://hub.rat.dev/&quot;,
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>          &quot;http://docker.registry.cyou/&quot;,
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>          &quot;https://dockerpull.com/&quot;,
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>          &quot;http://dockerproxy.cn/&quot;
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>  ]
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>}
 </span></code></pre></div>
-<p>例子：</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>https://purge.jsdelivr.net/gh/Ashesttt/Emergency_Supplies_Management_System@Emergency_Material_Manage_System/docker-compose.yml
+<ol>
+<li>保存好之后 执行以下两条命令</li>
+</ol>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sudo systemctl daemon-reload #重载systemd管理守护进程配置文件
 </span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>sudo systemctl restart docker #重启 Docker 服务
+</span></code></pre></div>
+<h2 id="3-docker">3. 列举一些docker镜像源</h2>
+<p><a href="https://www.coderjia.cn/archives/dba3f94c-a021-468a-8ac6-e840f85867ea#:~:text=国内经常使用Dock">目前国内可用Docker镜像源汇总（截至2024年12月） - CoderJia</a></p>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>docker.registry.cyou</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>docker-cf.registry.cyou</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>dockerpull.com</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>dockerproxy.cn</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>docker.1panel.live</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>hub.rat.dev</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>dhub.kubesre.xyz</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>docker.hlyun.org</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>docker.kejilion.pro</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>registry.dockermirror.com</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>docker.mrxn.net</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>docker.chenby.cn</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>ccr.ccs.tencentyun.com</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>hub.littlediary.cn</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>hub.firefly.store</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>docker.nat.tf</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>hub.yuzuha.cc</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>hub.crdz.gq</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>noohub.ru</td>
+<td>异常 ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)</td>
+</tr>
+<tr>
+<td>docker.nastool.de</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>hub.docker-ttc.xyz</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>freeno.xyz</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>docker.hpcloud.cloud</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>dislabaiot.xyz</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>docker.wget.at</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>ginger20240704.asia</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>lynn520.xyz</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>doublezonline.cloud</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>dockerproxy.com</td>
+<td>异常 (连接超时)</td>
+</tr>
+</tbody>
+</table>
 
 
 
 
 
 
-
-  
-  
 
 
 
@@ -777,7 +937,7 @@
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../images/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Images">
+          <a href="../%E9%85%8D%E7%BD%AEclash-for-linux-backup/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 配置clash-for-linux-backup">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -787,20 +947,20 @@
                 上一页
               </span>
               <div class="md-ellipsis">
-                Images
+                配置clash-for-linux-backup
               </div>
             </div>
           </a>
         
         
           
-          <a href="../understanding-of-node-and-nginx-deployment-websites/" class="md-footer__link md-footer__link--next" aria-label="下一页: node和nginx部署网站的初步认识">
+          <a href="../%E9%BB%91%E8%B1%B9_x2-tf%E5%8D%A1%E9%87%8D%E6%96%B0%E6%8C%82%E8%BD%BD/" class="md-footer__link md-footer__link--next" aria-label="下一页: 使用LVM重新挂载黑豹_x2-tf卡">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                node和nginx部署网站的初步认识
+                使用LVM重新挂载黑豹_x2-tf卡
               </div>
             </div>
             <div class="md-footer__button md-icon">
